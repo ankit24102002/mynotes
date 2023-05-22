@@ -69,7 +69,7 @@ class _RegisterViewState extends State<RegisterView> {
               } on FirebaseAuthException catch (e) {
                 if (e.code == 'weak-password') {
                   await showErrorDialog(
-                    context,
+                    context,   
                     'Weak-Pasword',
                   );
                 } else if (e.code == 'email-already-in-use') {

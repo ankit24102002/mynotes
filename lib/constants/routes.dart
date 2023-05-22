@@ -1,4 +1,3 @@
-import 'package:mynotes/views/verify_emai_view.dart';
 
 const loginRoute = '/ login/ ';
 const registerRoute= '/ register/' ;
